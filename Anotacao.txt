@@ -1,0 +1,17 @@
+⚙ Instalação o Bootstrap 4 (com Sass e Gulp)
+⚗ Transformação do layout em um tema de WordPress
+✏ Criação das funcionalidades do tema
+🕶 Utilização de plugins úteis
+📡 Publicação do site
+
+
+
+npm i bootstrap@4.6.2
+
+npm install jquery
+npm install popper
+npm install -g sass
+
+sass --version
+Instalação o Bootstrap 4 (com Sass e Gulp)
+instalando o Bootstrap 4 com NPM e Sass e Gulp
