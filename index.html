@@ -400,11 +400,11 @@
                     <div class="form-row">
                         <div class="col-sm-12">
                             <button class="btn btn-primary" type="submit">Enviar</button>
+                            <a tabindex="0" class="btn btn-secondary ml-2" role="button" data-toggle="popover"
+                                data-placement="right" data-trigger="focus" title="lorem2" data-content="dfkjsdfskdfskddfkswdfk fsdkdfksdf">Ajuda</a>
                         </div>
                     </div>
-        
                 </form>
-
             </div>
         </div>
     </div>
@@ -472,7 +472,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -483,6 +482,12 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover();
+        })
+    </script>
 </body>
 
 </html>
