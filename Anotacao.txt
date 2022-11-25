@@ -4,14 +4,18 @@
 🕶 Utilização de plugins úteis
 📡 Publicação do site
 
-
-
 npm i bootstrap@4.6.2
 
 npm install jquery
+
 npm install popper
+
 npm install -g sass
 
 sass --version
-Instalação o Bootstrap 4 (com Sass e Gulp)
-instalando o Bootstrap 4 com NPM e Sass e Gulp
+
+sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler
+
+npm install font-awesome
+
+sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css
