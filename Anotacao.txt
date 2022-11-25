@@ -3,6 +3,9 @@
 ✏ Criação das funcionalidades do tema
 🕶 Utilização de plugins úteis
 📡 Publicação do site
+https://getbootstrap.com/docs/4.6/getting-started/introduction/
+
+https://sass-lang.com/
 
 npm i bootstrap@4.6.2
 
@@ -19,3 +22,5 @@ sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler
 npm install font-awesome
 
 sass --watch node_modules/bootstrap/scss:node_modules/bootstrap/compiler node_modules/font-awesome/scss:node_modules/font-awesome/css style/scss:style/css
+
+Gerador de Texto Qualquer : https://www.lipsum.com/
